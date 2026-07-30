@@ -1,0 +1,15 @@
+.repo-head{display:grid;grid-template-columns:2fr 1fr;align-items:end;gap:5vw;margin:145px 0 40px}
+.repo-head h2{margin:16px 0 0}
+.repo-head>p{color:var(--muted);line-height:1.7}
+.repo-grid{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--line);border-left:1px solid var(--line)}
+.repo-card{min-height:300px;padding:30px;display:flex;flex-direction:column;border-right:1px solid var(--line);border-bottom:1px solid var(--line);transition:.25s}
+.repo-card:hover{background:#15191a;transform:translateY(-5px)}
+.repo-card>span{font:400 .62rem var(--mono);color:var(--lime);letter-spacing:.1em}
+.repo-card h3{font-size:1.45rem;letter-spacing:-.04em;margin:38px 0 10px}
+.repo-card p{color:var(--muted);font-size:.85rem;line-height:1.65}
+.repo-card>div{display:flex;gap:20px;margin-top:auto}
+.repo-card a{font:500 .65rem var(--mono);text-transform:uppercase;border-bottom:1px solid var(--lime);padding-bottom:4px}
+.repo-card.live{background:#11170d}
+.repo-card.live:before{content:"● LIVE";color:var(--lime);font:400 .56rem var(--mono);align-self:flex-end;margin-bottom:-10px}
+@media(max-width:900px){.repo-head{grid-template-columns:1fr}.repo-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:560px){.repo-grid{grid-template-columns:1fr}}
