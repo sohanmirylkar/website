@@ -1,5 +1,7 @@
 # Sohan Miryalkar — Portfolio Website
 
+**[View the live portfolio](http://sohanmiryalkar.com/)**
+
 A responsive personal portfolio website showcasing projects, professional experience, technical skills, articles, and contact information in a clean multi-page presentation.
 
 ## Highlights
